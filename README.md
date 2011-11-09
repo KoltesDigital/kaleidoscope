@@ -38,6 +38,8 @@ Language reference
 
 `def` defines a new function. It has a prototype (a name followed by parenthesis that may enclose a list of variables), and an expression as the body (a value, an elementary operation, or a function call).
 
+`main` is a special keyword defining the main function of the program. It takes no prototype (because it can't change: it has no parameter), just a body.
+
 `extern` declares extern functions (with just a prototype, no body).
 
 `#` introduces a comment: everything on the line after the sharp will be ignored by the compiler.
