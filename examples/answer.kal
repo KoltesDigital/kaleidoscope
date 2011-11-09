@@ -1,0 +1,5 @@
+# imports
+extern print(v)
+
+# give the answer to the Ultimate Question of Life, the Universe, and Everything
+main print(42)

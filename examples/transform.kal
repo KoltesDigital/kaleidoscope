@@ -1,0 +1,9 @@
+# imports
+extern input()
+extern print(v)
+
+def transform(a, b)
+	a * a + 2 * a * b + b * b
+
+main
+	print(transform(input(), input()))
